@@ -1,59 +1,35 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import Home from './components/Home';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Gallery from './components/Gallery';
+import Header from './components/Header';
 import Footer from './components/Footer';
 import './App.css';
+import { Switch, Route } from 'react-router-dom';
+import About from './components/About';
+import Gallery from './components/Gallery';
+import Home from './components/Home';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
-    <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/portfolio">Portfolio</Link>
-            </li>
-            <li>
-              <Link to="/gallery">Gallery</Link>
-            </li>
-          </ul>
-        </nav>
-
+    <div>
+      <Header/>
         {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
+        renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
+            <Route path="/about">
             <About />
-          </Route>
-          <Route path="/portfolio">
+            </Route>
+            <Route path="/portfolio">
             <Portfolio />
-          </Route>
-          <Route path="/gallery">
+            </Route>
+            <Route path="/gallery">
             <Gallery />
-          </Route>
-          <Route path="/">
+            </Route>
+            <Route path="/">
             <Home />
-          </Route>
+            </Route>
         </Switch>
-      </div>
-      <div>
-        <Footer />
-      </div>
-    </Router>
+      <Footer />
+    </div>
   );}
 
 export default App;
