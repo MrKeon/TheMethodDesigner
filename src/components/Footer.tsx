@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Link } from 'react-router-dom';
 export default function Footer() {
     return(
     <div className="Footer" >
+      <Nav />
       <div>
         <strong>Greater Seattle Area</strong>
       </div>
