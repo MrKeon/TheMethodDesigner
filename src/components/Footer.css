@@ -1,0 +1,26 @@
+.Footer {    
+    background: #FFEFD1;
+    height: 200px;
+    font-family: Mulish;
+}
+
+.Footer strong {
+    padding: 15px;
+    padding-bottom: 60px;  
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px; 
+    vertical-align: bottom;
+ 
+}
+
+.Footer p {
+    font-size: 15px;
+    line-height: 19px;
+    vertical-align: bottom;
+
+}
+
+.Footer div {
+    display: inline-block;
+}
