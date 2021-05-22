@@ -8,11 +8,14 @@ import {
 import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-import Gallery from './components/Gallery';
+import PhotoGallery from './components/Gallery';
 import Footer from './components/Footer';
+
 import './App.css';
+import { getPhotos } from './util/util';
 
 function App() {
+  let photos = getPhotos();
   return (
     <Router>
       <div>
@@ -43,7 +46,7 @@ function App() {
             <Portfolio />
           </Route>
           <Route path="/gallery">
-            <Gallery />
+            <PhotoGallery photos={photos} />
           </Route>
           <Route path="/">
             <Home />

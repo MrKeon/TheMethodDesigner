@@ -1,6 +1,6 @@
 import React from 'react';
+import Gallery, { GalleryProps } from 'react-photo-gallery';
 
-export default function Gallery() {
-    return(<div>Gallery</div>);
+export default function PhotoGallery({ photos }:GalleryProps) {
+    return(<Gallery photos={photos} />);
   }
-  
