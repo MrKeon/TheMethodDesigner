@@ -7,6 +7,7 @@ import About from './components/About';
 import Gallery from './components/Gallery';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
             </Route>
             <Route path="/gallery">
             <Gallery />
+            </Route>
+            <Route path="/contact" >
+            <Contact />
             </Route>
             <Route path="/">
             <Home />
