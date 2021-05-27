@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 interface IPage {
     endpoint: string
@@ -40,7 +40,7 @@ const  NavList = ({ ascendingOrder }: INavListProps): JSX.Element => {
             {
                 list.map(item => (
                         <li>
-                            <Link to={item.endpoint}>{item.name}</Link>
+                            <NavLink exact activeClassName="selected" to={item.endpoint}>{item.name}</NavLink>
                         </li>
                 ))
             }

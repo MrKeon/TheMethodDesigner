@@ -9,16 +9,28 @@
 .Header ul {
     margin-block-start: 0em;
     margin-block-end: 0em;
+    padding-top: 16px;
 }
 
 .Header li {
     float: right;
     list-style-type: none;
     vertical-align: center;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .Header a {
     text-decoration: none;
     color: #E9E9E9
+}
+
+.Header .selected {
+    border-bottom: 1px solid darkgrey;
+}
+
+.Header .brandLogo {
+    float: left;
+    padding-left:128px;
+    padding-top:5px;
 }
