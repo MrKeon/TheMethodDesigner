@@ -18,21 +18,24 @@ function App() {
         <Switch>
             <Route path="/about">
             <About />
+            <Footer/>
             </Route>
             <Route path="/portfolio">
             <Portfolio />
+            <Footer/>
             </Route>
             <Route path="/gallery">
             <Gallery />
+            <Footer/>
             </Route>
             <Route path="/contact" >
             <Contact />
+            <Footer/>
             </Route>
             <Route path="/">
             <Home />
             </Route>
         </Switch>
-      <Footer />
     </div>
   );}
 
