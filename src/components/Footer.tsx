@@ -4,12 +4,11 @@ import './Footer.css';
 import cc from '../cc.svg';
 import linkedin from '../linkedin.svg';
 import instagram from '../instagram.svg';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 export default function Footer() {
     return(
     <div className="Footer" >
-      <Nav />
+      <Nav ascendingOrder={true} />
       <div>
         <strong>Greater Seattle Area</strong>
       </div>
