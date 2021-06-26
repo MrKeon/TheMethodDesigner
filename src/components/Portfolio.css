@@ -68,6 +68,7 @@
     z-index:1;
 }
 
+/* TODO: future feature to blur images until hover. */
 /* .blur {
     filter: blur(4px);
     z-index:0;
