@@ -1,0 +1,29 @@
+.Pellegrino {
+    margin:auto;
+    width: 954px;
+    left: 243px;
+    top: 111px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    padding: 18px 196px 18px 196px;
+}
+
+.container {
+    background:#E5E5E5;
+}
+
+.PellegrinoLeft {
+    background-image: url('./PellegrinoLeft.png');
+    width: 270px;
+    height: 360px;
+    float: left;
+}
+
+.PellegrinoRight {
+    background-image: url('./PellegrinoRight.png');
+    width: 270px;
+    height: 360px;
+    float: right;
+}

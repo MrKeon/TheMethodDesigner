@@ -10,6 +10,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import SimplySweet from './components/portfolio/SimplySweet';
 import Breadcrumb from './components/Breadcrumb';
+import Pellegrino from './components/portfolio/Pellegrino';
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
             <Route path="/portfolio/simply-sweet-stems">
             <Breadcrumb/>
             <SimplySweet/>
+            </Route>
+            <Route path="/portfolio/pellegrino">
+            <Breadcrumb/>
+            <Pellegrino/>
             </Route>
             <Route path="/about">
             <About />
