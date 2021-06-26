@@ -9,6 +9,7 @@ import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import SimplySweet from './components/portfolio/SimplySweet';
+import Breadcrumb from './components/Breadcrumb';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         renders the first one that matches the current URL. */}
         <Switch>
             <Route path="/portfolio/simply-sweet-stems">
+            <Breadcrumb/>
             <SimplySweet/>
             </Route>
             <Route path="/about">
@@ -25,6 +27,7 @@ function App() {
             <Footer/>
             </Route>
             <Route path="/portfolio">
+            <Breadcrumb/>
             <Portfolio />
             <Footer/>
             </Route>
