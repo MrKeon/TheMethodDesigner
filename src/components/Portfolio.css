@@ -70,11 +70,17 @@
     z-index:1;
 }
 
-.blur {
+/* .blur {
     filter: blur(4px);
     z-index:0;
 }
 
 .blur:hover {
     filter: blur(0px);
+} */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -3,7 +3,7 @@ import './Portfolio.css';
 
 export default function Portfolio() {
     return(
-    <div className="Portfolio">
+    <div className="Portfolio container">
       <div className="main">
         <div className="portfolio-main">
           <div className="portfolio-main-background blur" />
