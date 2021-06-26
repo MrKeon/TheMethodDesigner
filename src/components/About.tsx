@@ -18,7 +18,7 @@ export default function About() {
           <h2>What I want from a career</h2>
           <p>My goal as a user experience designer is to create websites with a team that aims to include, everyone.</p>
           <p>I have a passion for individuals who have a learning and/ or a physical disability. I know I have much to learn, but that's okay because I'm super excited.♡</p>
-          <img src={HomePhoto}/>
+          <img aria-valuetext="Beach glass artistic photo." src={HomePhoto}/>
         </div>
       </div>
     </div>

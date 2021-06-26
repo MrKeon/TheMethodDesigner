@@ -8,6 +8,7 @@ import Gallery from './components/Gallery';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import SimplySweet from './components/portfolio/SimplySweet';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
         renders the first one that matches the current URL. */}
         <Switch>
+            <Route path="/portfolio/simply-sweet-stems">
+            <SimplySweet/>
+            </Route>
             <Route path="/about">
             <About />
             <Footer/>
@@ -32,7 +36,7 @@ function App() {
             <Contact />
             <Footer/>
             </Route>
-            <Route path="/">
+            <Route exact path="/">
             <Home />
             </Route>
         </Switch>
