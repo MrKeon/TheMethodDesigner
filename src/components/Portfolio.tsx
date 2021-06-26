@@ -11,14 +11,16 @@ export default function Portfolio() {
           <div className="main">
             <div className="portfolio-main">
               <Link to={`/portfolio/simply-sweet-stems`}>
-                <div className="portfolio-main-background blur" />
+                <div className="portfolio-main-background" />
               </Link>
             </div>
           </div>
           <div className="side">
-            <div className="Pellegrino blur"/>
-            <div className="DoorDash blur" />
-            <div className="DesignBasics blur"/>
+            <Link to={`/portfolio/pellegrino`}>
+              <div className="Pellegrino"/>
+            </Link>
+            <div className="DoorDash" />
+            <div className="DesignBasics"/>
           </div>
         </div>
       </div>
