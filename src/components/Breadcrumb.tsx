@@ -19,7 +19,7 @@ function formatBreadcrumbs(url: string) {
     let navLinks: any = [];
 
     links.forEach(link => {
-        crumbs.concat(`/${link}`);
+        crumbs = crumbs.concat(`/${link}`);
         navLinks.push(<NavLink to={crumbs}>{`${link}`}</NavLink>)
         navLinks.push(" / ");
     });

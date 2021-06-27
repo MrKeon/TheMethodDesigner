@@ -11,6 +11,7 @@ import Contact from './components/Contact';
 import SimplySweet from './components/portfolio/SimplySweet';
 import Breadcrumb from './components/Breadcrumb';
 import Pellegrino from './components/portfolio/Pellegrino';
+import Doordash from './components/portfolio/Doordash';
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
             <Route path="/portfolio/pellegrino">
             <Breadcrumb/>
             <Pellegrino/>
+            </Route>
+            <Route path="/portfolio/doordash">
+            <Breadcrumb/>
+            <Doordash/>
             </Route>
             <Route path="/about">
             <About />

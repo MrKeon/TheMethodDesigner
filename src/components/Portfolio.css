@@ -17,24 +17,24 @@
 }
 
 .Portfolio .portfolio-main-background {
-   background-image: url(../portfolio-main.png);
+   background: url(../portfolio-main.png) no-repeat;
    width: 722px;
    height: 732px;
 }
 
-.Portfolio .Pellegrino {
+.Portfolio .PellegrinoPreview {
     background-image: url(../Pellegrino.png);
     width: 270px;
     height: 220px;
 }
 
-.Portfolio .DoorDash {
+.Portfolio .DoorDashPreview {
     background-image: url(../DoorDash.png);
     width: 270px;
     height: 220px;
 }
 
-.Portfolio .DesignBasics {
+.Portfolio .DesignBasicsPreview {
     background-image: url(../DesignBasics.png);
     width: 270px;
     height: 220px;
