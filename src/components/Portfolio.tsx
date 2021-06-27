@@ -17,10 +17,12 @@ export default function Portfolio() {
           </div>
           <div className="side">
             <Link to={`/portfolio/pellegrino`}>
-              <div className="Pellegrino"/>
+              <div className="PellegrinoPreview"/>
             </Link>
-            <div className="DoorDash" />
-            <div className="DesignBasics"/>
+            <Link to={`/portfolio/doordash`}>
+            <div className="DoorDashPreview" />
+            </Link>
+            <div className="DesignBasicsPreview"/>
           </div>
         </div>
       </div>
