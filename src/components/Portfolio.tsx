@@ -22,7 +22,9 @@ export default function Portfolio() {
             <Link to={`/portfolio/doordash`}>
             <div className="DoorDashPreview" />
             </Link>
+            <Link to={`/portfolio/designbasics`}>
             <div className="DesignBasicsPreview"/>
+            </Link>
           </div>
         </div>
       </div>
