@@ -3,10 +3,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 import './App.css';
-import { getPhotos } from './util/util';
 import { Switch, Route } from 'react-router-dom';
 import About from './components/About';
-import Gallery from './components/Gallery';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -16,9 +14,9 @@ import Pellegrino from './components/portfolio/Pellegrino';
 import Doordash from './components/portfolio/Doordash';
 import DesignBasics from './components/portfolio/DesignBasics';
 import PhotoGallery from './components/Gallery';
+import { photos } from './resources/photos';
 
 function App() {
-  let photos = getPhotos();
   return (
     <div>
       <Header/>

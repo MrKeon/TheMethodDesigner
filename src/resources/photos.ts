@@ -1,19 +1,49 @@
 import { PhotoProps } from 'react-photo-gallery';
 
-export let photos: PhotoProps[] = [
+export const photos: PhotoProps[] = [
     {
-        src: `img/20190727_171635.jpg`,
-        width: 100,
-        height: 100
+        src: `https://tinyurl.com/s5jdnxrs`,
+        width: 345,
+        height: 280
     },
     {
-        src: `img/20190727_175625.jpg`,
-        width: 100,
-        height: 100
+        src: `https://tinyurl.com/jjev9ur5`,
+        width: 345,
+        height: 280
     },
     {
-        src: `img/20190727_191052_hdr.jpg`,
-        width: 100,
-        height: 100
+        src: `https://tinyurl.com/3vym2frr`,
+        width: 345,
+        height: 280
+    },
+    {
+        src: `https://tinyurl.com/djktdpfk`,
+        width: 345,
+        height: 280
+    },
+    {
+        src: `https://tinyurl.com/vyznksc4`,
+        width: 345,
+        height: 280
+    },
+    {
+        src: `https://tinyurl.com/2w9xpnfp`,
+        width: 345,
+        height: 280
+    },
+    {
+        src: `https://tinyurl.com/y35xfh9t`,
+        width: 345,
+        height: 280
+    },
+    {
+        src: `https://tinyurl.com/7v26nm68`,
+        width: 345,
+        height: 280
+    },
+    {
+        src: `https://tinyurl.com/24x83w9f`,
+        width: 345,
+        height: 280
     }
 ];
