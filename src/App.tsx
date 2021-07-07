@@ -51,6 +51,7 @@ function App() {
             <Footer/>
             </Route>
             <Route path="/contact" >
+            <Breadcrumb/>
             <Contact />
             <Footer/>
             </Route>
