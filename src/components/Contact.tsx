@@ -8,7 +8,7 @@ export default function Contact() {
     const SERVICE_ID = 'ContactForm';
     const TEMPLATE_ID = 'template_07im97l';
     const USER_ID = 'keon.sadatian@gmail.com';
-    const { register, errors, handleSubmit } = useForm();
+    const { register, handleSubmit } = useForm();
 
     function sendEmail(e: any) {
         e.preventDefault();
@@ -24,8 +24,6 @@ export default function Contact() {
     function validateEmail(input: string) {
         return EmailValidator.validate(input);
     }
-
-    console.log(errors);
     
     return(
     <div className="Contact">
