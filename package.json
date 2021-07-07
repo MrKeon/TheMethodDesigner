@@ -11,6 +11,10 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/react-router-dom": "^5.1.7",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^10.0.0",
+    "brfs": "^2.0.2",
+    "react-photo-gallery": "^8.0.0",
     "email-validator": "^2.0.4",
     "emailjs-com": "^3.1.0",
     "react": "^17.0.2",
@@ -44,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
   }
 }
