@@ -1,0 +1,20 @@
+.SimplySweet {
+    margin:auto;
+    width: 954px;
+    left: 243px;
+    top: 111px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    padding: 18px 196px 18px 196px;
+}
+
+.container {
+    background:#E5E5E5;
+}
+
+.SimplySweet iframe {
+    display: flex;
+    margin-left: -112px;
+}
