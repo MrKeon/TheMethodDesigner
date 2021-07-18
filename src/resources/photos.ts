@@ -37,11 +37,6 @@ export const photos: PhotoProps[] = [
         height: 2
     },
     {
-        src: `https://lh3.googleusercontent.com/pw/AM-JKLUBl5xSOLU77e39h4Lvn60z4x33ZlSt-zC_7DRMEaJwDb-SGFuWN4Oxh4K_0DT3qlqcs68GHufsTLcDvhEYYUTLYMgj9Bx4cdWeF1aK2mix4Du8cw4FUehHekjZt1zAazMemUSDToIw_KwfcicTFCfjSw=w2006-h1337-no?authuser=0`,
-        width: 3,
-        height: 2
-    },
-    {
         src: `https://lh3.googleusercontent.com/pw/AM-JKLXop56x-CHK38Iwf_oKcrAbtqguNakJcxyIZNkAyozfGLihep8HXzwvHeYlqA45zjSUnOgIhSbPSu7GD-Sh09hndQD6qCV3T7bsRo3oubea8p1PnIUwJ4WYyzG2AF7eK_S15YrTPm-I_UmO5N5OE5A3lg=w2006-h1337-no?authuser=0`,
         width: 3,
         height: 2
