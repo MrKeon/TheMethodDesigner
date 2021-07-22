@@ -1,6 +1,6 @@
 import Nav from './Nav';
 import './Header.css';
-import brandLogo from '../brandLogo.svg';
+import brandLogo from '../img/LOGO.svg';
 
 function Header() {
     return (

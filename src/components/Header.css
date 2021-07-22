@@ -3,7 +3,11 @@
     left: 0px;
     top: 0px;
     font-family: Mulish;
-    background: #000000;
+    background: #4A3C2F;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22.59px;
+    text-align: center;
 }
 
 .Header ul {
@@ -22,6 +26,7 @@
 
 .Header a {
     text-decoration: none;
+    text-decoration-color: white;
     color: #E9E9E9
 }
 

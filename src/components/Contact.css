@@ -45,3 +45,8 @@ input[type=text], select {
       align-items: center;
       justify-content: center;  
   }
+
+  .error {
+      color: red;
+      margin-top: 0px;
+  }
