@@ -15,6 +15,7 @@ import Doordash from './components/portfolio/Doordash';
 import DesignBasics from './components/portfolio/DesignBasics';
 import PhotoGallery from './components/Gallery';
 import { photos } from './resources/photos';
+import Sitemap from './components/Sitemap';
 
 function App() {
   return (
@@ -52,6 +53,9 @@ function App() {
             <Route path="/contact" >
             <Breadcrumb/>
             <Contact />
+            </Route>
+            <Route path="/sitemap">
+              <Sitemap />
             </Route>
             <Route exact path="/">
             <Home />

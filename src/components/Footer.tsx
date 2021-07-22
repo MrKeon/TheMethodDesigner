@@ -4,6 +4,7 @@ import './Footer.css';
 import cc from '../cc.svg';
 import linkedin from '../linkedin.svg';
 import instagram from '../instagram.svg';
+import { NavLink } from 'react-router-dom';
 
 export default function Footer() {
     return(
@@ -13,8 +14,9 @@ export default function Footer() {
         <strong>Greater Seattle Area</strong>
       </div>
       <div>
-        <p>The Method Designer 2021 <img src={cc} className="cc" /></p>
+        <p>The Method Designer 2021 <img src={cc} className="cc" /></p> 
       </div>
+      <div className="sitemap" ><NavLink exact activeClassName="selected" to={"/sitemap"}>Sitemap</NavLink></div>
       <div className="SocialMedia">
         <a href="https://www.linkedin.com/in/mrssadatian/" target="_blank">
           <p>Linkedin</p>
