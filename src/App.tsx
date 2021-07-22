@@ -41,27 +41,23 @@ function App() {
             </Route>
             <Route path="/about">
             <About />
-            <Footer/>
             </Route>
             <Route path="/portfolio">
             <Breadcrumb/>
             <Portfolio />
-            <Footer/>
             </Route>
             <Route path="/gallery">
             <PhotoGallery photos={photos} />
-            <Footer/>
             </Route>
             <Route path="/contact" >
             <Breadcrumb/>
             <Contact />
-            <Footer/>
             </Route>
             <Route exact path="/">
             <Home />
-            <Footer />
             </Route>
         </Switch>
+        <Footer/>
     </div>
   );}
 

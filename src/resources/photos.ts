@@ -13,8 +13,8 @@ export const photos: PhotoProps[] = [
     },
     {
         src: `https://lh3.googleusercontent.com/pw/AM-JKLV4ZPBLPu0rJSHtdSxTfJDaOnsmcLqNwEkeoIboJQFXbszbwGUi5lS5fH_oeQKv2BOpK6U2y1d8EeC7A1fKzibcHBhs2dxvMSTNnZCQw8pMAl_T0XuoHGbcO6cM11lt5XalwyQeLvKrU2LbXM5TR1rxRw=w1079-h1337-no?authuser=0`,
-        width: 3,
-        height: 2
+        width: 217,
+        height: 269
     },
     {
         src: `https://lh3.googleusercontent.com/pw/AM-JKLU5GStg7cRs7jceMjF0SizLsIUVrD64YUQVtSjAKmmhPy58pqo_HH7WbpfQjU775EfV_Pp78cfjXjf5gv8ucvGcrj-Wby0u98MohPcxkVCXsPhSKUUEd4GFNxMHILdvpgJNYG-mSHy_Fl1FvgMSHb6ugg=w2006-h1337-no?authuser=0`,

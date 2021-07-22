@@ -1,6 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
-import { Switch, Route, Link, useRouteMatch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import SimplySweet from './portfolio/SimplySweet';
 
 export default function Portfolio() {
