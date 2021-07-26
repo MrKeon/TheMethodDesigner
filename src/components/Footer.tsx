@@ -16,7 +16,7 @@ export default function Footer() {
       <div>
         <p>The Method Designer 2021 <img src={cc} className="cc" /></p> 
       </div>
-      <div className="sitemap" ><NavLink exact activeClassName="selected" to={"/sitemap"}>Sitemap</NavLink></div>
+      <div className="sitemap" ><NavLink exact activeClassName="selected" to={"/sitemap"}>Site Map</NavLink></div>
       <div className="SocialMedia">
         <a href="https://www.linkedin.com/in/mrssadatian/" target="_blank">
           <p>Linkedin</p>
