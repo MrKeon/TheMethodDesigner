@@ -16,6 +16,7 @@ import DesignBasics from './components/portfolio/DesignBasics';
 import PhotoGallery from './components/Gallery';
 import { photos } from './resources/photos';
 import Sitemap from './components/Sitemap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
