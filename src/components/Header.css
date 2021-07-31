@@ -24,12 +24,6 @@
     padding-right: 10px;
 }
 
-.Header a {
-    text-decoration: none;
-    text-decoration-color: white;
-    color: #E9E9E9
-}
-
 .Header .selected {
     border-bottom: 1px solid darkgrey;
 }
@@ -38,4 +32,14 @@
     float: left;
     padding-left:128px;
     padding-top:5px;
+}
+
+.Header .container {
+    background: #4A3C2F;
+}
+
+.Header .nav-link {
+    color: white !important;
+    text-decoration: none;
+    text-decoration-color: white;
 }
