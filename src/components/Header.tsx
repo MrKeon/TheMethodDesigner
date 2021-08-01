@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="Header">
       <img src={brandLogo} className="brandLogo" />
-      <Navbar expand="md">
+      <Navbar expand="md" className="navbar-dark">
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
