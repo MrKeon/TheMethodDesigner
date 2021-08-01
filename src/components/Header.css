@@ -24,7 +24,7 @@
     padding-right: 10px;
 }
 
-.Header .selected {
+.Header .active {
     border-bottom: 1px solid darkgrey;
 }
 
@@ -42,4 +42,8 @@
     color: white !important;
     text-decoration: none;
     text-decoration-color: white;
+}
+
+.Header .navbar {
+    float: right;
 }

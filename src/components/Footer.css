@@ -51,6 +51,7 @@
 .Footer .SocialMedia {
     float: right;
     padding-right: 128px;
+    padding-top: 24px;
 }
 
 .Footer .SocialMedia img {

@@ -52,7 +52,6 @@ function App() {
             <PhotoGallery photos={photos} />
             </Route>
             <Route path="/contact" >
-            <Breadcrumb/>
             <Contact />
             </Route>
             <Route path="/sitemap">

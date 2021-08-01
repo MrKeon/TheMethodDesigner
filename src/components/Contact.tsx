@@ -1,6 +1,7 @@
 import './Contact.css';
 import emailjs from 'emailjs-com';
 import { useForm } from 'react-hook-form';
+import Breadcrumb from './Breadcrumb';
 
 const EMAIL_REGEX_PATTERN = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 export default function Contact() {
@@ -29,6 +30,7 @@ export default function Contact() {
     
     return(
     <div className="Contact">
+        <Breadcrumb/>
         <div className="flower-container">
             <div className="contactImage"/>
             <div className="contact-form">

@@ -1,12 +1,12 @@
 import React from 'react';
 import './Portfolio.css';
 import { Link } from 'react-router-dom';
-import SimplySweet from './portfolio/SimplySweet';
 
 export default function Portfolio() {
 
-    return(
-      <div>
+  return (
+    <div>
+      <div className="shell">
         <div className="Portfolio container">
           <div className="main">
             <div className="portfolio-main">
@@ -17,17 +17,17 @@ export default function Portfolio() {
           </div>
           <div className="side">
             <Link to={`/portfolio/pellegrino`}>
-              <div className="PellegrinoPreview"/>
+              <div className="PellegrinoPreview" />
             </Link>
             <Link to={`/portfolio/doordash`}>
-            <div className="DoorDashPreview" />
+              <div className="DoorDashPreview" />
             </Link>
             <Link to={`/portfolio/designbasics`}>
-            <div className="DesignBasicsPreview"/>
+              <div className="DesignBasicsPreview" />
             </Link>
           </div>
         </div>
       </div>
-    );
-  }
-  
+    </div>
+  );
+}

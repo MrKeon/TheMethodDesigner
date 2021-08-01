@@ -34,7 +34,7 @@ input[type=text], select {
       width: 467px;
       float: right;
       background-color: white;
-      padding: 0px 51px 0px 51px;
+      padding: 24px 51px 0px 51px;
       height: 788px;
       vertical-align: auto;
   }
@@ -49,4 +49,12 @@ input[type=text], select {
   .error {
       color: red;
       margin-top: 0px;
+  }
+
+  .Contact .Breadcrumb {
+      background: none;
+  }
+
+  [type=checkbox] {
+      margin: 4px;
   }

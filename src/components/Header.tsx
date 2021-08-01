@@ -10,7 +10,7 @@ function Header() {
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav>
+            <Nav activeKey={window.location.pathname}>
               <Nav.Item>
                 <Nav.Link href="/">Home</Nav.Link>
               </Nav.Item>
@@ -22,10 +22,10 @@ function Header() {
               </Nav.Item>
               <Nav.Item>
                 <NavDropdown title="Projects" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="/portfolio/simply-sweet-stems">Simply Sweet Stems</NavDropdown.Item>
-                  <NavDropdown.Item href="/portfolio/pellegrino">Pellegrino</NavDropdown.Item>
-                  <NavDropdown.Item href="/portfolio/doordash">Doordash</NavDropdown.Item>
-                  <NavDropdown.Item href="/portfolio/designbasics">Design Basics</NavDropdown.Item>
+                  <NavDropdown.Item  href="/portfolio/simply-sweet-stems">Simply Sweet Stems</NavDropdown.Item>
+                  <NavDropdown.Item  href="/portfolio/pellegrino">Pellegrino</NavDropdown.Item>
+                  <NavDropdown.Item  href="/portfolio/doordash">Doordash</NavDropdown.Item>
+                  <NavDropdown.Item  href="/portfolio/designbasics">Design Basics</NavDropdown.Item>
                 </NavDropdown>
               </Nav.Item>
               <Nav.Item>
