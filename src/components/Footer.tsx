@@ -43,7 +43,7 @@ export default function Footer() {
             Photo credit: Unsplash x Edited X Elena Joland
             The Method Designer 2021    , All Rights Reserved
           </p>
-          <a>
+          <a href="/sitemap">
             Site Map
           </a>
         </div>
