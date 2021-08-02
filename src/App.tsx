@@ -1,22 +1,27 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
-import About from './components/About';
 import Home from './components/Home';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import SimplySweet from './components/portfolio/SimplySweet';
 import Breadcrumb from './components/Breadcrumb';
-import Pellegrino from './components/portfolio/Pellegrino';
-import Doordash from './components/portfolio/Doordash';
-import DesignBasics from './components/portfolio/DesignBasics';
-import PhotoGallery from './components/Gallery';
 import { photos } from './resources/photos';
 import Sitemap from './components/Sitemap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+const SimplySweet = lazy(() => import('./components/portfolio/SimplySweet'));
+const About = lazy(() => import('./components/About'));
+const Portfolio = lazy(() => import('./components/Portfolio'));
+const Contact = lazy(() => import('./components/Contact'));
+const Pellegrino = lazy(() => import('./components/portfolio/Pellegrino'));
+const Doordash = lazy(() => import('./components/portfolio/Doordash'));
+const DesignBasics = lazy(() => import('./components/portfolio/DesignBasics'));
+const PhotoGallery = lazy(() => import('./components/Gallery'));
+
+
+
+const renderLoader = () => <p>Loading</p>;
 
 function App() {
   return (
@@ -27,32 +32,48 @@ function App() {
         <Switch>
             <Route path="/portfolio/simply-sweet-stems">
             <Breadcrumb/>
-            <SimplySweet/>
+            <Suspense fallback={renderLoader()}>
+              <SimplySweet/>
+            </Suspense>
             </Route>
             <Route path="/portfolio/pellegrino">
             <Breadcrumb/>
-            <Pellegrino/>
+            <Suspense fallback={renderLoader()}>
+              <Pellegrino/>
+            </Suspense>
             </Route>
             <Route path="/portfolio/doordash">
             <Breadcrumb/>
-            <Doordash/>
+            <Suspense fallback={renderLoader()}>
+              <Doordash/>
+            </Suspense>
             </Route>
             <Route path="/portfolio/designbasics">
             <Breadcrumb/>
-            <DesignBasics/>
+            <Suspense fallback={renderLoader()}>
+              <DesignBasics/>
+            </Suspense>
             </Route>
             <Route path="/about">
-            <About />
+            <Suspense fallback={renderLoader()}>
+              <About />
+            </Suspense>
             </Route>
             <Route path="/portfolio">
             <Breadcrumb/>
-            <Portfolio />
+            <Suspense fallback={renderLoader()}>
+              <Portfolio />
+            </Suspense>
             </Route>
             <Route path="/gallery">
-            <PhotoGallery photos={photos} />
+            <Suspense fallback={renderLoader()}>
+              <PhotoGallery photos={photos} />
+            </Suspense>
             </Route>
             <Route path="/contact" >
-            <Contact />
+            <Suspense fallback={renderLoader()}>
+              <Contact />
+            </Suspense>
             </Route>
             <Route path="/sitemap">
               <Sitemap />
