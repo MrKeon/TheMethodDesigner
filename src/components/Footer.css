@@ -64,6 +64,9 @@
     .Footer .sitemap {
         margin: 12px;
     }
+    .mobile.text {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 767px) {
