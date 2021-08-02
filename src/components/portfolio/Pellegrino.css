@@ -1,29 +1,47 @@
-.Pellegrino {
-    margin:auto;
-    width: 954px;
-    left: 243px;
-    top: 111px;
-
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    padding: 18px 196px 18px 196px;
-}
-
-.Pellegrino .container {
-    background:#E5E5E5;
-}
-
-.PellegrinoLeft {
-    background-image: url('./PellegrinoLeft.png');
-    width: 270px;
-    height: 360px;
-    float: left;
-}
-
-.PellegrinoRight {
-    background-image: url('./PellegrinoRight.png');
-    width: 270px;
-    height: 360px;
-    float: right;
-}
+        @media screen and (min-width: 768px) {
+            .Pellegrino {
+                margin: auto;
+                width: 954px;
+                left: 243px;
+                top: 111px;
+                background: #FFFFFF;
+                border: 1px solid #000000;
+                box-sizing: border-box;
+                padding: 18px 196px 18px 196px;
+            }
+            .Pellegrino .container {
+                background: #E5E5E5;
+            }
+            .PellegrinoLeft {
+                background-image: url('./PellegrinoLeft.png');
+                width: 270px;
+                height: 360px;
+                float: left;
+            }
+            .PellegrinoRight {
+                background-image: url('./PellegrinoRight.png');
+                width: 270px;
+                height: 360px;
+                float: right;
+            }
+        }
+        
+        @media screen and (max-width: 767px) {
+            .Pellegrino {
+                padding: 28px;
+            }
+            .PellegrinoLeft {
+                display: block;
+                background: url('./PellegrinoLeft.png');
+                width: 270px;
+                height: 360px;
+                margin: 20px auto 20px auto;
+            }
+            .PellegrinoRight {
+                display: block;
+                background: url('./PellegrinoRight.png');
+                width: 270px;
+                height: 360px;
+                margin: 20px auto 20px auto;
+            }
+        }
