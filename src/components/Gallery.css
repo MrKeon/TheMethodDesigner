@@ -1,4 +1,17 @@
-.GalleryContainer {
-    padding-left: 64px;
-    padding-right: 64px;
+@media screen and (min-width: 768px) {
+    .GalleryContainer {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .GalleryContainer {
+        padding: 50px;
+    }
+    .GalleryContainer img {
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
 }
