@@ -110,6 +110,8 @@
     .Footer .mobile a {
         display: block;
         font-size: 16px;
+        line-height: 25px;
+        height: 25px;
     }
     .Footer nav {
         padding-bottom: 0px;
