@@ -30,8 +30,8 @@
 
 .Header .brandLogo {
     float: left;
-    padding-left:128px;
-    padding-top:5px;
+    padding-left: 128px;
+    padding-top: 5px;
 }
 
 .Header .container {
@@ -50,4 +50,9 @@
 
 .collapsed {
     margin: 4px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    text-decoration-color: white;
 }

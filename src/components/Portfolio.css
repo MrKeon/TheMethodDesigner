@@ -101,7 +101,7 @@ filter: blur(0px);
     .desktop {
         display: none;
     }
-    .mobile {
+    .Portfolio .mobile {
         display: block;
         width: 100%;
         background: none;
