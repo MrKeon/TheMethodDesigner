@@ -1,46 +1,52 @@
-.About {
-    background: #E5E5E5;
-    padding: 48px;
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 25px;
-    color: #000000;
+@media screen and (min-width: 768px) {
+    .About {
+        background: #E5E5E5;
+        padding: 48px;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 25px;
+        color: #000000;
+    }
+    .About .Main {
+        border: 1px solid #000000;
+        background: #FFFFFF;
+        margin: auto;
+        width: 66%;
+    }
+    .About .Main .Container {
+        margin: auto;
+        width: 63%;
+    }
+    .Main img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 24px;
+    }
+    .About h1 {
+        font-size: 24px;
+        font-weight: bolder;
+    }
+    .About h2 {
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .About li {
+        font-size: 18px;
+    }
+    .About p {
+        font-size: 18px;
+    }
 }
 
-.About .Main {
-    border: 1px solid #000000;
-    background: #FFFFFF;
-    margin: auto;
-    width: 66%;
-}
-
-.About .Main .Container {
-    margin: auto;
-    width: 63%;
-}
-
-.Main img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 24px;
-}
-
-.About h1 {
-    font-size: 24px;
-    font-weight: bolder;
-}
-
-.About h2 {
-    font-size: 20px;
-    font-weight: bolder;
-}
-
-.About li {
-    font-size: 18px;
-}
-
-.About p {
-    font-size: 18px;
+@media screen and (max-width: 767px) {
+    .About .Container {
+        padding: 20px;
+    }
+    .About .Container img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
