@@ -41,8 +41,6 @@
 }
 
 .Portfolio .side {
-    margin-left: 90px;
-    margin-right:400px;
     float: right;
 }
 
@@ -77,8 +75,12 @@
     filter: blur(0px);
 } */
 
-.container {
+.Portfolio .container {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.shell {
+    background: #E5E5E5;
 }
