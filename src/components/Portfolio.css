@@ -1,86 +1,112 @@
-.Portfolio {
-    background: #E5E5E5;
-    padding-bottom: 50px;
-    display: inline-block;
-    width:100%;
-}
-
-.Portfolio .main {
-    float: left;
-    padding-left: 200px;
-
-}
-
-.Portfolio .portfolio-main {
-    text-align: center;
-    vertical-align: middle;
-}
-
-.Portfolio .portfolio-main-background {
-   background: url(../portfolio-main.png) no-repeat;
-   width: 722px;
-   height: 732px;
-}
-
-.Portfolio .PellegrinoPreview {
-    background-image: url(../Pellegrino.png);
-    width: 270px;
-    height: 220px;
-}
-
-.Portfolio .DoorDashPreview {
-    background-image: url(../DoorDash.png);
-    width: 270px;
-    height: 220px;
-}
-
-.Portfolio .DesignBasicsPreview {
-    background-image: url(../DesignBasics.png);
-    width: 270px;
-    height: 220px;
-}
-
-.Portfolio .side {
-    float: right;
-}
-
-.Portfolio .side div {
-    display: block;
-    margin-bottom: 35px;
-}
-
-.label {
-    background: #FFFFFF;
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 60px;
-}
-
-
-.noBlur {
-    position: relative;
-    filter: blur(0px);
-    z-index:1;
-}
-
-/* TODO: future feature to blur images until hover. */
-/* .blur {
-    filter: blur(4px);
-    z-index:0;
+@media screen and (min-width: 768px) {
+    .Portfolio {
+        background: #E5E5E5;
+        padding-bottom: 50px;
+        display: inline-block;
+        width: 100%;
+    }
+    .Portfolio .main {
+        float: left;
+        padding-left: 200px;
+    }
+    .Portfolio .portfolio-main {
+        text-align: center;
+        vertical-align: middle;
+    }
+    .Portfolio .portfolio-main-background {
+        background: url(../portfolio-main.png) no-repeat;
+        width: 722px;
+        height: 732px;
+    }
+    .Portfolio .PellegrinoPreview {
+        background-image: url(../Pellegrino.png);
+        width: 270px;
+        height: 220px;
+    }
+    .Portfolio .DoorDashPreview {
+        background-image: url(../DoorDash.png);
+        width: 270px;
+        height: 220px;
+    }
+    .Portfolio .DesignBasicsPreview {
+        background-image: url(../DesignBasics.png);
+        width: 270px;
+        height: 220px;
+    }
+    .Portfolio .side {
+        float: right;
+    }
+    .Portfolio .side div {
+        display: block;
+        margin-bottom: 35px;
+    }
+    .label {
+        background: #FFFFFF;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .noBlur {
+        position: relative;
+        filter: blur(0px);
+        z-index: 1;
+    }
+    /* TODO: future feature to blur images until hover. */
+    /* .blur {
+filter: blur(4px);
+z-index:0;
 }
 
 .blur:hover {
-    filter: blur(0px);
+filter: blur(0px);
 } */
-
-.Portfolio .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    .Portfolio .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .desktop {
+        background: #E5E5E5;
+    }
+    .mobile {
+        display: none;
+    }
 }
 
-.shell {
-    background: #E5E5E5;
+@media screen and (max-width: 767px) {
+    .portfolioMobile {
+        width: 170px;
+        height: 155px;
+        border: 0.25px solid #000000;
+        box-sizing: border-box;
+        filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .portfolioMobile1 {
+        background: url(../portfolioMobile1.png);
+    }
+    .portfolioMobile2 {
+        background-image: url(../portfolioMobile2.png);
+    }
+    .portfolioMobile3 {
+        background-image: url(../portfolioMobile3.png);
+    }
+    .portfolioMobile4 {
+        background-image: url(../portfolioMobile4.png);
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+        width: 100%;
+        background: none;
+    }
+    .mobile div {
+        margin: 24px auto 24px auto;
+    }
 }

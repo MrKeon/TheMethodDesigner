@@ -6,7 +6,7 @@ export default function Portfolio() {
 
   return (
     <div>
-      <div className="shell">
+      <div className="desktop">
         <div className="Portfolio container">
           <div className="main">
             <div className="portfolio-main">
@@ -27,6 +27,20 @@ export default function Portfolio() {
             </Link>
           </div>
         </div>
+      </div>
+      <div className="mobile">
+        <Link to={`/portfolio/simply-sweet-stems`}>
+        <div className="portfolioMobile1 portfolioMobile"/>
+        </Link>
+        <Link to={`/portfolio/pellegrino`}>
+        <div className="portfolioMobile2 portfolioMobile"/>
+        </Link>
+        <Link to={`/portfolio/doordash`}>
+        <div className="portfolioMobile3 portfolioMobile"/>
+        </Link>
+        <Link to={`/portfolio/designbasics`}>
+        <div className="portfolioMobile4 portfolioMobile"/>
+        </Link>
       </div>
     </div>
   );
