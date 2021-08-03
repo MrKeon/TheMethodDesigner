@@ -2,7 +2,16 @@ import './Header.css';
 import brandLogo from '../img/LOGO.svg';
 import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
 function Header() {
+  const [show, setShow] = useState(false);
+  const showDropdown = () =>{
+      setShow(!show);
+  }
+  const hideDropdown = () => {
+      setShow(false);
+  }
+
   return (
     <div className="Header">
       <NavLink exact to="/"><img src={brandLogo} className="brandLogo" /></NavLink>
@@ -21,7 +30,7 @@ function Header() {
                 <NavLink exact activeClassName="selected" to="/portfolio"><Nav.Link href="/portfolio">Portfolio</Nav.Link></NavLink>
               </Nav.Item>
               <Nav.Item>
-                <NavDropdown title="Projects" id="basic-nav-dropdown">
+                <NavDropdown title="Portfolio" id="basic-nav-dropdown" show={show} onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
                   <NavLink exact activeClassName="selected" to="/portfolio/simply-sweet-stems"><NavDropdown.Item  href="/portfolio/simply-sweet-stems">Simply Sweet Stems</NavDropdown.Item></NavLink>
                   <NavLink exact activeClassName="selected" to="/portfolio/doordash"><NavDropdown.Item  href="/portfolio/doordash">Doordash</NavDropdown.Item></NavLink>
                   <NavLink exact activeClassName="selected" to="/portfolio/designbasics"><NavDropdown.Item  href="/portfolio/designbasics">Design Basics</NavDropdown.Item></NavLink>

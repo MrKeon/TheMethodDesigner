@@ -28,7 +28,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      <div className="mobile">
+      <div className="Portfolio mobile">
         <Link to={`/portfolio/simply-sweet-stems`}>
         <div className="portfolioMobile1 portfolioMobile"/>
         </Link>

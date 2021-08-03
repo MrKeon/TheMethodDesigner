@@ -55,7 +55,7 @@
         .btn-dark {
             background-color: -internal-light-dark(rgb(59, 59, 59), rgb(239, 239, 239));
         }
-        .mobile {
+        .Home .mobile {
             display: none;
         }
     }

@@ -67,10 +67,10 @@ filter: blur(0px);
         align-items: center;
         justify-content: center;
     }
-    .desktop {
+    .Portfolio .desktop {
         background: #E5E5E5;
     }
-    .mobile {
+    .Portfolio .mobile {
         display: none;
     }
 }
@@ -98,7 +98,7 @@ filter: blur(0px);
     .portfolioMobile4 {
         background-image: url(../portfolioMobile4.png);
     }
-    .desktop {
+    .Portfolio .desktop {
         display: none;
     }
     .Portfolio .mobile {
@@ -106,7 +106,7 @@ filter: blur(0px);
         width: 100%;
         background: none;
     }
-    .mobile div {
+    .Portfolio.mobile div {
         margin: 24px auto 24px auto;
     }
 }
