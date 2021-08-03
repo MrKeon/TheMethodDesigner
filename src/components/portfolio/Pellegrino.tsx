@@ -18,8 +18,10 @@ export default function Pellegrino() {
                     <p>While working on this project, I re-taught myself the Adobe Suite in four days. The last time I used the Suite was over eight years ago, so it was quite exciting trying to recall everything that I was taught.</p>
                     <h3>Personal goal</h3>
                     <p>I took the photograph and transformed it into something completely new. From mysterious and ethereal to something bold and commanding.</p>
+                    <div>
                     <div className="PellegrinoLeft"/>
                     <div className="PellegrinoRight"/>
+                    </div>
                 </div>
             </div>
         </div>

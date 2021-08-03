@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 function Header() {
   return (
     <div className="Header">
-      <img src={brandLogo} className="brandLogo" />
+      <NavLink exact to="/"><img src={brandLogo} className="brandLogo" /></NavLink>
       <Navbar expand="md" className="navbar-dark">
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
