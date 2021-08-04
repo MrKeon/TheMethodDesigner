@@ -1,4 +1,10 @@
 @media screen and (min-width: 768px) {
+    .app {
+        background: #E5E5E5
+    }
+    .Breadcrumb {
+        background: inherit;
+    }
     .SimplySweet {
         margin: auto;
         width: 954px;

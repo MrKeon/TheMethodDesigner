@@ -1,4 +1,10 @@
 @media screen and (min-width: 768px) {
+    .app {
+        background: #E5E5E5
+    }
+    .Breadcrumb {
+        background: inherit;
+    }
     .DesignBasics {
         margin: auto;
         width: 954px;
@@ -8,9 +14,6 @@
         border: 1px solid #000000;
         box-sizing: border-box;
         padding: 18px 196px 18px 196px;
-    }
-    DesignBasics .container {
-        background: #E5E5E5;
     }
     .DesignBasics iframe {
         display: flex;
